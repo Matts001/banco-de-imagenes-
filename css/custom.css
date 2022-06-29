@@ -8,11 +8,9 @@ body {
 
 }
 #resultado{
-  
   width: 100%;
 }
 .tarjeta{
-  
   width: 23%;
   height: 300px;
   margin: 1%;
@@ -34,4 +32,26 @@ body {
 img{
   height:70%;
   width:100%;
+}
+
+#paginacion{
+  margin-top:20px;
+  
+}
+
+@media (max-width: 614px){
+  #resultado{
+    display:flex;
+    flex-direction:column;
+    
+  }
+  .tarjeta{
+    width: 100%;
+    height: 100%;
+    
+  }
+  #verImg{
+    height: 80%;
+    width: 100%;
+  }
 }
